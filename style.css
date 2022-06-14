@@ -1,3 +1,95 @@
-* {
-    color: teal
+@font-face {
+  font-family: 'Kdam Thmor Pro';
+  src: url("./assets/fonts/KdamThmorPro-Regular.ttf");
+}
+html {
+  scroll-behavior: smooth; 
+}
+nav {
+  position: sticky;
+  top: 0; 
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 10px;
+  line-height: 30px;
+  transition: .3s;
+}
+.nav-item a {
+  color: #38eb0c;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.nav-item a:hover {
+  color: #4d2323;
+}
+.avatar {
+  width: 30%;
+  height: auto;
+  border-radius: 30px;
+  border: 10px #ccc solid;
+  box-shadow: 0 0 10px #444;
+}
+.icon {
+  width: 10%;
+  height: auto;
+  border-radius:40px;
+  border: 5px #ccc solid;
+  box-shadow: 0 0 10px #444;
+}
+.rsschool {
+  width: 30%;
+  height: auto;
+  border-radius:10px;
+  border: 1px #ccc solid;
+  box-shadow: 0 0 10px #444;
+}
+.main .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+}
+body {
+  margin: 50; 
+  padding: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Kdam Thmor Pro', 'Regular 400';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #38eb0c;
+  background-image: url("./assets/img/rss.jpg");
+  background-size: contain;
+  background-repeat: round;
+  background-attachment: fixed;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.section {
+  border: 5px;
+  margin-left: 10px;
+  width: 40%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
