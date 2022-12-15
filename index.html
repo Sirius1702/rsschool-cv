@@ -10,31 +10,200 @@
 <body>
     <header class="header">
         <div class="container header__container">
-            <div class="header__photo">
-                <img class="header__photo-img" src="img/Photo.jpg" alt="My photo">
-            </div>
+            <nav class="header__nav nav-menu">
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item">Contacts</li>
+                    <li class="nav-menu__item">About-me</li>
+                    <li class="nav-menu__item">Skills</li>
+                    <li class="nav-menu__item">Code</li>
+                    <li class="nav-menu__item">Projects</li>
+                    <li class="nav-menu__item">Experience</li>
+                    <li class="nav-menu__item">Education</li>
+                    <li class="nav-menu__item">Courses</li>
+                    <li class="nav-menu__item">Languages</li>
+                </ul>
+            </nav>
             <div class="header__name">
-                <h1 class="header__name-header">SERGEY CHIGIDIN</h1>
-                <p class="header__name-major">Junior Frontend developer</p>
+                <h1 class="header__title">SERGEY_CHIGIDIN</h1>
+                <p class="header__major">junior_frontend_developer</p>
             </div>
         </div>
-        <nav class="header__nav">
-            <ul>
-                <li>Contacts</li>
-                <li>About me</li>
-                <li>Skills</li>
-                <li>Code</li>
-                <li>Projects</li>
-                <li>Experience</li>
-                <li>Education</li>
-                <li>Courses</li>
-                <li>Languages</li>
-            </ul>
-        </nav>
     </header>
-    <main class="container main__container">
-
+    <main class="main">
+        <div class="container main__container">
+            <section class="main__section contacts">
+                <div class="contacts__left-wrapper">
+                    <h2 class="main__header contacts__header">.contacts-info <span>{</span></h2>
+                    <p class="main__text text">phone: <span class="blue">+79785602675</span>;<br>e-mail: <span class="blue">chigidin.s@gmail.com</span>;<br>telegram: <span class="blue">sirius1702</span>;<br>github: <span class="blue">sirius1702</span>;<br>location: <span class="blue">crimea-simferopol</span>;</p>
+                    <p class="close-bracket">}</p>
+                </div>
+                <div class="contacts__photo">
+                    <img class="contacts__img" src="img/Photo.jpg" alt="My photo">
+                </div>
+            </section>
+            <section class="main__section about-me">
+                <h2 class="about-me__header main__header">About-me:</h2>
+                <p class="about-me__text text">I worked for a long time in sales, later moved to management. I decided to completely change the field and I was fascinated by programming. I want to develop further in this direction and participate in the creation of modern products and technologies.</p>
+            </section>
+            <section class="main__section skills">
+                <h2 class="main__header skills__header">My skills:</h2>
+                <div class="main__skills skills__container">
+                    <div class="skills__box">
+                        <p class="skills__name text">git</p>
+                        <div class="skills__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                    <div class="skills__box">
+                        <p class="skills__name text">html</p>
+                        <div class="skills__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                    <div class="skills__box">
+                        <p class="skills__name text">css</p>
+                        <div class="skills__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                    <div class="skills__box">
+                        <p class="skills__name text">javascript</p>
+                        <div class="skills__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                    <div class="skills__box">
+                        <p class="skills__name text">figma</p>
+                        <div class="skills__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__section code">
+                <h2 class="main__header code__header">Code example:</h2>
+                <p class="code__example text"><code>
+                    <span class="green-span">int</span> <span class="brown">main</span>() {<br>
+                        &nbsp&nbsp*me = <span class="brown">new</span> person;<br>
+                        &nbsp&nbsp <span class="green-span">while</span>(me-><span class="blue">avake</span>()) {<br>
+                            &nbsp&nbsp&nbsp&nbspme-><span class="blue">code</span>;<br>
+                            &nbsp&nbsp};<br>}
+                </code></p>
+            </section>
+            <section class="main__section projects">
+                <h2 class="main__header projects__header">My projects:</h2>
+                <a href="#" class="projects__cv text"><img src="img/Project_cv.jpg" alt="My project CV"></a>
+            </section>
+            <section class="main__section work">
+                <h2 class="main__header work__header">Work experience</h2>
+                <div class="main__work work__container">
+                    <div class="work__box">
+                        <p class="work__name text">Sales</p>
+                        <div class="work__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                    <div class="work__box">
+                        <p class="work__name text">Management</p>
+                        <div class="work__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__section education">
+                <h2 class="main__header">Education:</h2>
+                <p class="education__text text">Crimean Economic Institute, my major is economic and management.</p>
+            </section>
+            <section class="main__section courses">
+                <h2 class="main__header">Courses:</h2>
+                <ul class="main__table courses__table">
+                    <li class="courses__item text">Rolling Scopes - <span class="green-span">in progress...</span></li>
+                    <li class="courses__item text">FreeCodeCamp - <span class="green-span">in progress...</span></li>
+                    <li class="courses__item text">Sololearn - <span class="brown">completed:</span>
+                        <ul class="courses__sololearn sololearn">
+                            <li class="sololearn__course"><p><img src="img/sololearn_html.jpg" alt="html" class="sololearn__img"></p></li>
+                            <li class="sololearn__course"><p><img src="img/sololearn_css.jpg" alt="css" class="sololearn__img"></p></li>
+                            <li class="sololearn__course"><p><img src="img/sololearn_js.jpg" alt="js" class="sololearn__img"></p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="main__section languages">
+                <h2 class="main__header">Languages:</h2>
+                <div class="main__work work__container">
+                    <div class="languages__box">
+                        <p class="languages__name text">Russian</p>
+                        <div class="languages__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                        </div>
+                    </div>
+                    <div class="languages__box">
+                        <p class="languages__name text">Ukrainian</p>
+                        <div class="languages__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                    <div class="languages__box">
+                        <p class="languages__name text">English</p>
+                        <div class="languages__experience experience">
+                            <div class="experience__color green"></div>
+                            <div class="experience__color green"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                            <div class="experience__color"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer class="container footer__container"></footer>
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="footer__text"></p>
+            <nav class="footer__links-box">
+                <li class="footer__link"><a href=""><img src="" alt=""></a></li>
+                <li class="footer__link"><a href=""></a></li>
+                <li class="footer__link"><a href=""></a></li>
+                <li class="footer__link"><a href=""></a></li>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
